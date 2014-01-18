@@ -34,7 +34,7 @@ function process1()
 		accumDistr.push(num);
 		resultStr += '(' + counts[i] + ' ; ' + num + ')<br>';
 	}
-	resultStr += '(>' + counts[counts.length - 1] + ' ; Відсутні)<br>';
+	resultStr += '(>' + counts[counts.length - 1] + ' ; Відсутні)<br>Кількість студентів щохвилини:<br>';
 	
 	for(var i = 0, num = 0, students = 0; i < genNums.length; ++i)
 	{
